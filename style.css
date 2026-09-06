@@ -5,15 +5,15 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: #f5f0e8;
+    background: #f4f1ea;
     color: #333;
     text-align: center;
 }
 
 header {
-    background: #6b4f3a;
+    background: #49372a;
     color: white;
-    padding: 40px 20px;
+    padding: 45px 20px;
 }
 
 header h1 {
@@ -33,14 +33,14 @@ main {
 .hero {
     background: white;
     margin: 40px 20px;
-    padding: 50px 30px;
+    padding: 45px 30px;
     border-radius: 20px;
     box-shadow: 0 5px 20px #0002;
 }
 
 .hero h2 {
     font-size: 35px;
-    color: #6b4f3a;
+    color: #49372a;
 }
 
 .hero p {
@@ -48,25 +48,20 @@ main {
     line-height: 1.7;
 }
 
-button {
-    background: #b8860b;
-    color: white;
-    border: none;
-    padding: 15px 30px;
+.warning {
+    margin-top: 30px;
+    padding: 20px;
+    background: #fff3cd;
+    border-radius: 12px;
     font-size: 18px;
-    border-radius: 30px;
-    cursor: pointer;
-}
-
-button:hover {
-    background: #8f6808;
 }
 
 .about {
     padding: 20px;
 }
 
-.about h2 {
+.about h2,
+.statistics h2 {
     font-size: 32px;
 }
 
@@ -86,28 +81,57 @@ button:hover {
 }
 
 .card h3 {
-    color: #6b4f3a;
+    color: #49372a;
 }
 
 .card p {
     line-height: 1.6;
 }
 
+.statistics {
+    margin: 50px 20px;
+}
+
+.stats {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.stats div {
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    width: 220px;
+    box-shadow: 0 4px 15px #0002;
+}
+
+.stats span {
+    font-size: 35px;
+    font-weight: bold;
+    color: #b8860b;
+}
+
 .quote {
     margin: 40px 20px;
     padding: 40px;
-    background: #e8dccb;
+    background: #e5d8c8;
     border-radius: 20px;
 }
 
 .quote p {
-    font-size: 24px;
-    font-style: italic;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.quote small {
+    font-size: 16px;
 }
 
 footer {
     margin-top: 50px;
     padding: 25px;
-    background: #6b4f3a;
+    background: #49372a;
     color: white;
 }
